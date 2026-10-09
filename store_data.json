@@ -1,0 +1,33 @@
+
+{
+  "store_name": "TechStyle Store",
+  "description": "An online store selling accessories and electronics.",
+  "shipping_policy": {
+    "standard_delivery": "3 to 5 business days",
+    "express_delivery": "1 to 2 business days",
+    "free_shipping_threshold": 50
+  },
+  "return_policy": {
+    "return_window": "30 days after delivery",
+    "conditions": "Items must be unused and in their original packaging.",
+    "refund_processing": "5 to 7 business days after return approval"
+  },
+  "products": [
+    {
+      "name": "Wireless Headphones",
+      "price": 49.99,
+      "description": "Wireless headphones with a rechargeable battery."
+    },
+    {
+      "name": "USB-C Charger",
+      "price": 19.99,
+      "description": "A compact USB-C wall charger."
+    },
+    {
+      "name": "Laptop Stand",
+      "price": 29.99,
+      "description": "An adjustable stand for laptops."
+    }
+  ],
+  "support_email": "support@example.com"
+}
