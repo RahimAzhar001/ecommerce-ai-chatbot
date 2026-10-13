@@ -675,14 +675,23 @@ If the information is insufficient, say that you cannot confirm it.
                 {"role": "assistant", "content": answer}
             )
 
-        except Exception as error:
-            st.error(
-                "I couldn't connect to the AI service or retrieve "
-                "the required information. Please try again."
-            )
-            # Keep technical details out of the customer-facing UI.
-            print(f"Chatbot error: {type(error).__name__}: {error}")
+        # except Exception as error:
+        #     st.error(
+        #         "I couldn't connect to the AI service or retrieve "
+        #         "the required information. Please try again."
+        #     )
+        #     # Keep technical details out of the customer-facing UI.
+        #     print(f"Chatbot error: {type(error).__name__}: {error}")
 
+
+        except Exception as error:
+            import traceback
+
+            print("CHATBOT ERROR:")
+            traceback.print_exc()
+
+            st.error(f"Error type: {type(error).__name__}")
+            st.code(str(error))
 
 # --------------------------------------------------
 # 15. FOOTER
