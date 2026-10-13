@@ -1,0 +1,40 @@
+
+{
+  "documents": [
+    {
+      "id": "shipping_standard",
+      "category": "shipping",
+      "content": "TechStyle Store standard delivery takes 3 to 5 business days."
+    },
+    {
+      "id": "shipping_express",
+      "category": "shipping",
+      "content": "TechStyle Store express delivery takes 1 to 2 business days."
+    },
+    {
+      "id": "shipping_free",
+      "category": "shipping",
+      "content": "TechStyle Store offers free shipping on qualifying orders of $50 or more."
+    },
+    {
+      "id": "returns_window",
+      "category": "returns",
+      "content": "Customers can return items within 30 days after delivery."
+    },
+    {
+      "id": "returns_condition",
+      "category": "returns",
+      "content": "Returned items must be unused and in their original packaging."
+    },
+    {
+      "id": "refund_processing",
+      "category": "refunds",
+      "content": "Refunds are processed within 5 to 7 business days after return approval."
+    },
+    {
+      "id": "support_contact",
+      "category": "support",
+      "content": "Customers can contact TechStyle Store at support@example.com."
+    }
+  ]
+}
