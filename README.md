@@ -9,7 +9,7 @@ The project combines large language models (LLMs) with **semantic retrieval** to
 **Live App:** https://ecommerce-ai-chatbot-feuybxnr8gyu3s8ywjdaoq.streamlit.app/
 
 
-> Replace the placeholder URLs above with your actual Streamlit app and GitHub repository links.
+
 
 ## ✨ Features
 
